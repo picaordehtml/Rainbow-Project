@@ -1,0 +1,172 @@
+body {
+    margin: 15px;;
+    padding: 15px;;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-image: url(../images/bob-esponja-fondo.png);
+    background-size:cover;
+    display: inline-block;
+    font-size: 600%;
+    color: black;
+    width: 50%;
+    height: 100%;
+    float:inherit;
+    float: right;
+}
+
+h1 p {
+    display: inline-flex;
+    padding: 200px;
+}
+
+header {
+    height: 200%;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+nav {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }--> centrar y margen
+
+nav ul {
+    list-style-type:none;
+    display: flex;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}-->separación entre elementos
+
+nav img.valencia:hover {
+    content: url('../images/boton-valencia1.png');
+}
+
+nav img.houston:hover {
+    content: url('../images/boton-houston-1.png');
+}
+
+nav img.glendale:hover {
+    content: url('../images/boton-glendale-1.png');
+}
+
+hr {
+    height: 5px;
+    background-color: pink;
+    color: pink;
+  }
+
+.grid-item { 
+   width: 370px;
+   margin-right: 55px;
+   margin-top: 25px;
+   border: solid 5px pink;
+}
+
+.grid-container {
+    width: 100vw;
+    display: inline-block;
+    
+}
+
+table img#mapav:hover {
+    border: solid 5px aquamarine;
+    content: url('../images/rainbow-unicorn.gif');
+}
+
+table img#museo:hover {
+    border: solid 5px aquamarine;
+    content: url('../images/semi-bien.gif');
+}
+
+table img#heritage:hover {
+    border: solid 5px aquamarine;
+    content: url('../images/semi-bien.gif');
+}
+
+table img#mapah:hover {
+    border: solid 5px aquamarine;
+    content: url('../images/rainbow-unicorn.gif');
+}
+
+table img#nasa:hover {
+    border: solid 5px aquamarine;
+    content: url('../images/semi-muy-bien.gif');
+}
+
+table img#papago:hover {
+    border: solid 5px aquamarine;
+    content: url('../images/semi-bien.gif');
+}
+
+table img#mapag:hover {
+    border: solid 5px aquamarine;
+    content: url('../images/rainbow-unicorn.gif');
+}
+
+table img#sunnyside:hover {
+    border: solid 5px aquamarine;
+    content: url('../images/semi-no.gif');
+
+}
+
+table img#zoo:hover {
+    border: solid 5px aquamarine;
+    content: url('../images/semi-muy-bien.gif');
+}
+
+h2 {
+    font-size: 50px;
+    font-style: oblique ;
+}
+
+main p {
+    font-size: 15px;
+    text-align: justify;
+    display: flex;
+}
+
+#houston-rainbow {
+    border: solid 5px pink;
+}
+
+#glendale-rainbow {
+    border: solid 5px pink;
+}
+
+table td p a {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 20px;
+}
+
+table td p a:hover {
+    display: inline-block;
+    background-color: pink;
+    color: black;
+}
+
+footer {
+    background-color: pink;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer p a {
+    color: aquamarine;
+}
