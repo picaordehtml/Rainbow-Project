@@ -8,12 +8,27 @@ h1 {
     background-image: url(../images/bob-esponja-fondo.png);
     background-size:cover;
     display: inline-block;
-    font-size: 600%;
-    color: black;
-    width: 50%;
-    height: 100%;
     float:inherit;
     float: right;
+}
+
+button {
+    font-size: x-large;
+    background-color: pink;
+    border: solid 5px aquamarine;
+}
+
+button:hover {
+    background-color: aquamarine;
+    border: solid 5px pink;
+}
+
+#laLista {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: larger;
+    border: dotted 5px pink ;
+    display: inline-block;
 }
 
 h1 p {
@@ -44,7 +59,8 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-right: 20px;
+    padding: 1rem;
+    height: 5rem;
 }-->separación entre elementos
 
 nav img.valencia:hover {
@@ -66,21 +82,16 @@ hr {
   }
 
 .grid-item { 
-   width: 370px;
+   width: 90%;
    margin-right: 55px;
    margin-top: 25px;
    border: solid 5px pink;
 }
 
-.grid-container {
-    width: 100vw;
-    display: inline-block;
-    
-}
-
 table img#mapav:hover {
     border: solid 5px aquamarine;
     content: url('../images/rainbow-unicorn.gif');
+    width: 25em;
 }
 
 table img#museo:hover {
@@ -96,6 +107,7 @@ table img#heritage:hover {
 table img#mapah:hover {
     border: solid 5px aquamarine;
     content: url('../images/rainbow-unicorn.gif');
+    width: 25em;
 }
 
 table img#nasa:hover {
@@ -111,6 +123,7 @@ table img#papago:hover {
 table img#mapag:hover {
     border: solid 5px aquamarine;
     content: url('../images/rainbow-unicorn.gif');
+    width: 25em;
 }
 
 table img#sunnyside:hover {
@@ -125,12 +138,12 @@ table img#zoo:hover {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 5em;
     font-style: oblique ;
 }
 
 main p {
-    font-size: 15px;
+    font-size: 1rem;
     text-align: justify;
     display: flex;
 }
@@ -170,3 +183,4 @@ footer {
 footer p a {
     color: aquamarine;
 }
+
